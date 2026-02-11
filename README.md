@@ -57,7 +57,7 @@ Predecir con precisión el precio final de un boleto de avión basándose en car
 | `from` / `to` | Origen y destino | Categórica |
 | `price` | **Variable objetivo** - Precio del pasaje | Numérica |
 
-## 🔬 Metodología
+## Metodología
 
 ### Framework: CRISP-DM
 El proyecto sigue la metodología estándar de la industria para proyectos de Data Mining:
@@ -111,7 +111,7 @@ Variables generadas:
 
 **División de datos**: 80% entrenamiento / 20% prueba
 
-## 📈 Resultados
+## Resultados
 
 ### Métricas de Evaluación
 
@@ -131,15 +131,15 @@ Variables generadas:
 
 ### Hallazgos Principales
 
-✅ **Random Forest es el mejor modelo** en ambas clases, con diferencias mínimas respecto a Decision Tree simple
+**Random Forest es el mejor modelo** en ambas clases, con diferencias mínimas respecto a Decision Tree simple
 
-✅ **Business Class**: Mayor capacidad predictiva (R²=0.858) pero errores absolutos más altos debido a mayor rango de precios
+**Business Class**: Mayor capacidad predictiva (R²=0.858) pero errores absolutos más altos debido a mayor rango de precios
 
-✅ **Economy Class**: Menor R² (0.708) pero errores más bajos, sugiere mayor volatilidad de precios
+**Economy Class**: Menor R² (0.708) pero errores más bajos, sugiere mayor volatilidad de precios
 
-✅ **Linear Regression tiene bajo desempeño**, confirmando relaciones no lineales entre variables y precio
+**Linear Regression tiene bajo desempeño**, confirmando relaciones no lineales entre variables y precio
 
-✅ **Variables más influyentes**: Duración del vuelo, número de escalas, aerolínea
+**Variables más influyentes**: Duración del vuelo, número de escalas, aerolínea
 
 ### Visualizaciones Clave
 
@@ -286,13 +286,7 @@ flight-price-prediction/
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## 🙏 Agradecimientos
+## Agradecimientos
 
 - Dataset original disponible en [Kaggle](https://www.kaggle.com/)
 - Inspirado en necesidades reales de optimización de precios en la industria aérea
@@ -300,4 +294,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-**⭐ Si este proyecto te resultó útil, considera darle una estrella en GitHub**
+** Si este proyecto te resultó útil, considera darle una estrella en GitHub**
