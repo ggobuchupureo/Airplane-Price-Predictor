@@ -184,7 +184,6 @@ El proyecto incluye:
 
 - Email: ggo@hotmail.cl
 - LinkedIn: [Gastón González Ovalle](https://www.linkedin.com/in/gastón-gonzález-ovalle-5290a179/)
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
 
 ---
 
