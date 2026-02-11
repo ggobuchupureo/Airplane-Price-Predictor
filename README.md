@@ -1,4 +1,4 @@
-# 🛫 Sistema de Predicción de Precios de Pasajes Aéreos
+# Sistema de Predicción de Precios de Pasajes Aéreos
 
 Sistema de Machine Learning para predecir precios de vuelos basado en características históricas, utilizando datos de aerolíneas indias.
 
@@ -32,9 +32,9 @@ Este proyecto implementa un sistema de predicción de precios de pasajes aéreos
 Predecir con precisión el precio final de un boleto de avión basándose en características históricas de vuelos.
 
 ### Valor Agregado
-- ✅ Reducción del error de predicción en 15-20%
-- ✅ Recomendaciones de mejores oportunidades de precio
-- ✅ Incremento potencial en reservas de pasajes
+- Reducción del error de predicción en 15-20%
+- Recomendaciones de mejores oportunidades de precio
+- Incremento potencial en reservas de pasajes
 
 ## 📊 Conjunto de Datos
 
@@ -149,104 +149,8 @@ El proyecto incluye:
 - Matrices de correlación
 - Gráficos de comparación de métricas entre modelos
 
-## 🚀 Instalación
 
-### Requisitos Previos
-- Python 3.8 o superior
-- pip
-
-### Pasos de Instalación
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/flight-price-prediction.git
-cd flight-price-prediction
-
-# Crear entorno virtual (opcional pero recomendado)
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-
-# Instalar dependencias
-pip install -r requirements.txt
-```
-
-### Dependencias Principales
-```
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-openpyxl>=3.0.0  # Para leer archivos Excel
-```
-
-## 💻 Uso
-
-### Ejecutar el Notebook Completo
-
-```bash
-jupyter notebook flight_price_prediction.ipynb
-```
-
-### Ejemplo de Predicción
-
-```python
-import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
-import joblib
-
-# Cargar modelo pre-entrenado
-model = joblib.load('models/random_forest_business.pkl')
-
-# Preparar datos de ejemplo
-new_flight = {
-    'airline': 'Vistara',
-    'from': 'Delhi',
-    'to': 'Mumbai',
-    'stop': 0,  # Sin escalas
-    'duration_hours': 2,
-    'duration_mins': 15,
-    'dep_time_hour': 18,
-    'date_month': 3
-}
-
-# Realizar predicción
-predicted_price = model.predict(new_flight_processed)
-print(f"Precio estimado: ${predicted_price[0]:,.2f}")
-```
-
-## 📁 Estructura del Proyecto
-
-```
-flight-price-prediction/
-│
-├── data/
-│   ├── business.xlsx          # Dataset clase Business
-│   └── economy.xlsx           # Dataset clase Economy
-│
-├── notebooks/
-│   └── flight_price_prediction.ipynb  # Notebook principal
-│
-├── models/
-│   ├── random_forest_business.pkl
-│   └── random_forest_economy.pkl
-│
-├── images/
-│   ├── price_distribution.png
-│   ├── correlation_matrix.png
-│   └── model_comparison.png
-│
-├── src/
-│   ├── preprocessing.py       # Funciones de preprocesamiento
-│   ├── modeling.py            # Funciones de modelado
-│   └── evaluation.py          # Funciones de evaluación
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
-## 🛠️ Tecnologías Utilizadas
+## Librerías Utilizadas
 
 - **Python 3.12**: Lenguaje principal
 - **Pandas**: Manipulación y análisis de datos
@@ -255,28 +159,26 @@ flight-price-prediction/
 - **Matplotlib & Seaborn**: Visualización de datos
 - **Jupyter Notebook**: Desarrollo interactivo
 
-## 📝 Conclusiones
+## Conclusiones
 
 ### Fortalezas del Proyecto
-- ✅ Pipeline completo de Data Science implementado
-- ✅ Comparación rigurosa de múltiples modelos
-- ✅ Optimización de hiperparámetros con validación cruzada
-- ✅ Métricas de evaluación comprehensivas
+- Pipeline completo de Data Science implementado
+- Comparación rigurosa de múltiples modelos
+- Optimización de hiperparámetros con validación cruzada
+- Métricas de evaluación comprehensivas
 
 ### Limitaciones Identificadas
-- ⚠️ Dataset limitado a 2 meses (febrero-marzo 2022)
-- ⚠️ Solo rutas indias
-- ⚠️ Posible sesgo estacional (datos de temporada baja)
+- Dataset limitado a 2 meses (febrero-marzo 2022)
+- Solo rutas indias
+- Posible sesgo estacional (datos de temporada baja)
 
 ### Trabajo Futuro
 - [ ] Incorporar datos de todo el año para capturar estacionalidad
 - [ ] Incluir variables externas (precio del combustible, demanda turística)
 - [ ] Implementar modelos de ensemble más sofisticados (XGBoost, LightGBM)
-- [ ] Desarrollar API REST para predicciones en tiempo real
-- [ ] Crear dashboard interactivo con Streamlit o Dash
 - [ ] Análisis de series temporales para tendencias de precios
 
-## 👨‍💻 Autor
+## Autor
 
 **Gastón Esteban González Ovalle**
 
