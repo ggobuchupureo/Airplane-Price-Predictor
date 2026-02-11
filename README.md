@@ -36,7 +36,7 @@ Predecir con precisión el precio final de un boleto de avión basándose en car
 - Recomendaciones de mejores oportunidades de precio
 - Incremento potencial en reservas de pasajes
 
-## 📊 Conjunto de Datos
+## Conjunto de Datos
 
 ### Características del Dataset
 - **Registros totales**: ~300,000 vuelos
