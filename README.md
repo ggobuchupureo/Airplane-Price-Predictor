@@ -193,7 +193,3 @@ El proyecto incluye:
 - Dataset original disponible en [Kaggle](https://www.kaggle.com/)
 - Inspirado en necesidades reales de optimización de precios en la industria aérea
 - Desarrollado como proyecto práctico durante formación en Data Science en Academia Desafío Latam
-
----
-
-** Si este proyecto te resultó útil, considera darle una estrella en GitHub**
