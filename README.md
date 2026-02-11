@@ -119,14 +119,14 @@ Variables generadas:
 | Modelo | R² | MAE | RMSE |
 |--------|-----|-----|------|
 | Decision Tree (baseline) | 0.857 | $2,604 | $4,843 |
-| **Random Forest (optimizado)** | **0.858** | **$2,625** | **$4,831** ✅ |
+| **Random Forest (optimizado)** | **0.858** | **$2,625** | **$4,831**  |
 | Linear Regression | 0.473 | $7,085 | $9,336 |
 
 #### Dataset Economy Class
 | Modelo | R² | MAE | RMSE |
 |--------|-----|-----|------|
 | Decision Tree (baseline) | 0.694 | $1,073 | $2,059 |
-| **Random Forest (optimizado)** | **0.708** | **$1,086** | **$2,013** ✅ |
+| **Random Forest (optimizado)** | **0.708** | **$1,086** | **$2,013**  |
 | Linear Regression | 0.492 | $1,777 | $2,655 |
 
 ### Hallazgos Principales
