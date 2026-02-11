@@ -6,7 +6,7 @@ Sistema de Machine Learning para predecir precios de vuelos basado en caracterí
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Problema de Negocio](#problema-de-negocio)
 - [Conjunto de Datos](#conjunto-de-datos)
@@ -18,7 +18,7 @@ Sistema de Machine Learning para predecir precios de vuelos basado en caracterí
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Autor](#autor)
 
-## 🎯 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa un sistema de predicción de precios de pasajes aéreos utilizando técnicas de Machine Learning. El objetivo es ayudar tanto a aerolíneas como a usuarios finales a:
 
@@ -26,14 +26,13 @@ Este proyecto implementa un sistema de predicción de precios de pasajes aéreos
 - **Usuarios**: Identificar los mejores momentos para comprar pasajes
 - **Plataformas**: Maximizar ingresos mediante identificación de patrones de precios
 
-## 💼 Problema de Negocio
+## Problema de Negocio
 
 ### Objetivo Principal
 Predecir con precisión el precio final de un boleto de avión basándose en características históricas de vuelos.
 
 ### Valor Agregado
 - ✅ Reducción del error de predicción en 15-20%
-- ✅ Identificación de patrones estacionales de demanda
 - ✅ Recomendaciones de mejores oportunidades de precio
 - ✅ Incremento potencial en reservas de pasajes
 
